@@ -52,10 +52,15 @@ def total_gross(source)
 
   total = 0 
   #dir_name = {}
+  row_index = 0
   
+  while row_index < source.length do
+    total += gross_for_director(source, row_index)
+    row_index += 1
+  end
   
+  total
   
-
 end
 
 require 'pp'
