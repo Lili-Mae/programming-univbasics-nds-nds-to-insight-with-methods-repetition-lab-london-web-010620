@@ -51,7 +51,9 @@ def total_gross(source)
   # return the total
 
   total = 0 
-  dir_name = {}
+  #dir_name = {}
+  
+  
   
 
 end
